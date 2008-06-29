@@ -1,0 +1,42 @@
+# Project: Ctrl-Me
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = Ctrl-Me_private.res
+OBJ  = ctrlme.o tareas.o ventana.o taskliststyle.o $(RES)
+LINKOBJ  = ctrlme.o tareas.o ventana.o taskliststyle.o $(RES)
+LIBS =  -L"C:/Qt/4.3.4/lib" -L"C:/Qt/4.3.4/lib" ../../../../Qt/4.3.4/lib/libQtGui4.a ../../../../Qt/4.3.4/lib/libQtCore4.a  
+INCS =  -I"C:/Qt/4.3.4/include/Qt"  -I"C:/Qt/4.3.4/include/QtCore"  -I"C:/Qt/4.3.4/include/QtGui"  -I"C:/Qt/4.3.4/include" 
+CXXINCS =  -I"C:/Qt/4.3.4/include/Qt"  -I"C:/Qt/4.3.4/include/QtGui"  -I"C:/Qt/4.3.4/include/QtXml"  -I"C:/Qt/4.3.4/include"  -I"C:/Qt/4.3.4/include/Qt"  -I"C:/Qt/4.3.4/include/QtCore"  -I"C:/Qt/4.3.4/include/QtGui"  -I"C:/Qt/4.3.4/include" 
+BIN  = Ctrl-Me.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Ctrl-Me.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Ctrl-Me.exe" $(LIBS)
+
+ctrlme.o: ctrlme.cpp
+	$(CPP) -c ctrlme.cpp -o ctrlme.o $(CXXFLAGS)
+
+tareas.o: tareas.cpp
+	$(CPP) -c tareas.cpp -o tareas.o $(CXXFLAGS)
+
+ventana.o: ventana.cpp
+	$(CPP) -c ventana.cpp -o ventana.o $(CXXFLAGS)
+
+taskliststyle.o: taskliststyle.cpp
+	$(CPP) -c taskliststyle.cpp -o taskliststyle.o $(CXXFLAGS)
+
+Ctrl-Me_private.res: Ctrl-Me_private.rc 
+	$(WINDRES) -i Ctrl-Me_private.rc --input-format=rc -o Ctrl-Me_private.res -O coff 
