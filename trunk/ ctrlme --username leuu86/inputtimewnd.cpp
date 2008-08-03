@@ -87,7 +87,7 @@ void InputTimeWnd::readSettings() {
 		acceptBtn->hide();
 	}
 	int w = QApplication::desktop()->availableGeometry().width();
-	setMaximumWidth(w / settings->value("itw/maximumWidth", 8).toInt());
+	setMaximumWidth(w / settings->value("itw/maximumWidth", 5).toInt());
 	int h = QApplication::desktop()->availableGeometry().height();
 	setMaximumHeight(h / settings->value("itw/maximumHeight", 2).toInt());
 }
