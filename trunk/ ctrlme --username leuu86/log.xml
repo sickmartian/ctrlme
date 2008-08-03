@@ -1,0 +1,1063 @@
+<?xml version='1.0'?>
+<!DOCTYPE Log>
+<Log>
+ <Entry Id="1" >
+  <beginTimeStamp>20080731233701</beginTimeStamp>
+  <endTimeStamp>20080731233730</endTimeStamp>
+  <Task Id="1" >
+   <Id>4</Id>
+   <beginTimeStamp>20080731233708</beginTimeStamp>
+   <endTimeStamp>20080731233717</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>2</Id>
+   <beginTimeStamp>20080731233708</beginTimeStamp>
+   <endTimeStamp>20080731233730</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080731233727</beginTimeStamp>
+   <endTimeStamp>20080731233730</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="2" >
+  <beginTimeStamp>20080731233919</beginTimeStamp>
+  <endTimeStamp>20080731233944</endTimeStamp>
+  <Task Id="1" >
+   <Id>4</Id>
+   <beginTimeStamp>20080731233927</beginTimeStamp>
+   <endTimeStamp>20080731233944</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080731233927</beginTimeStamp>
+   <endTimeStamp>20080731233944</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>5</Id>
+   <beginTimeStamp>20080731233942</beginTimeStamp>
+   <endTimeStamp>20080731233944</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="3" >
+  <beginTimeStamp>20080731234444</beginTimeStamp>
+  <endTimeStamp>20080731234500</endTimeStamp>
+  <Task Id="1" >
+   <Id>4</Id>
+   <beginTimeStamp>20080731234458</beginTimeStamp>
+   <endTimeStamp>20080731234500</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>2</Id>
+   <beginTimeStamp>20080731234458</beginTimeStamp>
+   <endTimeStamp>20080731234500</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="4" >
+  <beginTimeStamp>20080731234715</beginTimeStamp>
+  <endTimeStamp>20080731234746</endTimeStamp>
+ </Entry>
+ <Entry Id="5" >
+  <beginTimeStamp>20080731234809</beginTimeStamp>
+  <endTimeStamp>20080731234818</endTimeStamp>
+ </Entry>
+ <Entry Id="6" >
+  <beginTimeStamp>20080803131023</beginTimeStamp>
+  <endTimeStamp>20080803131037</endTimeStamp>
+  <Task Id="1" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803131028</beginTimeStamp>
+   <endTimeStamp>20080803131037</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="7" >
+  <beginTimeStamp>20080803131816</beginTimeStamp>
+  <endTimeStamp>20080803131937</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803131836</beginTimeStamp>
+   <endTimeStamp>20080803131937</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803131932</beginTimeStamp>
+   <endTimeStamp>20080803131937</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="8" >
+  <beginTimeStamp>20080803132151</beginTimeStamp>
+  <endTimeStamp>20080803132239</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803132153</beginTimeStamp>
+   <endTimeStamp>20080803132239</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="9" >
+  <beginTimeStamp>20080803134117</beginTimeStamp>
+  <endTimeStamp>20080803134226</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803134121</beginTimeStamp>
+   <endTimeStamp>20080803134226</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803134154</beginTimeStamp>
+   <endTimeStamp>20080803134226</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803134154</beginTimeStamp>
+   <endTimeStamp>20080803134226</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="10" >
+  <beginTimeStamp>20080803134246</beginTimeStamp>
+  <endTimeStamp>20080803134428</endTimeStamp>
+ </Entry>
+ <Entry Id="11" >
+  <beginTimeStamp>20080803134650</beginTimeStamp>
+  <endTimeStamp>20080803134820</endTimeStamp>
+  <Task Id="1" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803134659</beginTimeStamp>
+   <endTimeStamp>20080803134820</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803134714</beginTimeStamp>
+   <endTimeStamp>20080803134820</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="12" >
+  <beginTimeStamp>20080803145144</beginTimeStamp>
+  <endTimeStamp>20080803145211</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803145148</beginTimeStamp>
+   <endTimeStamp>20080803145211</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803145151</beginTimeStamp>
+   <endTimeStamp>20080803145211</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803145208</beginTimeStamp>
+   <endTimeStamp>20080803145211</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="13" >
+  <beginTimeStamp>20080803145349</beginTimeStamp>
+  <endTimeStamp>20080803145430</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803145351</beginTimeStamp>
+   <endTimeStamp>20080803145430</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803145354</beginTimeStamp>
+   <endTimeStamp>20080803145401</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803145357</beginTimeStamp>
+   <endTimeStamp>20080803145430</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="14" >
+  <beginTimeStamp>20080803145724</beginTimeStamp>
+  <endTimeStamp>20080803145757</endTimeStamp>
+ </Entry>
+ <Entry Id="15" >
+  <beginTimeStamp>20080803150315</beginTimeStamp>
+  <endTimeStamp>20080803150418</endTimeStamp>
+ </Entry>
+ <Entry Id="16" >
+  <beginTimeStamp>20080803151101</beginTimeStamp>
+  <endTimeStamp>20080803151139</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803151106</beginTimeStamp>
+   <endTimeStamp>20080803151139</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803151106</beginTimeStamp>
+   <endTimeStamp>20080803151139</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="17" >
+  <beginTimeStamp>20080803151736</beginTimeStamp>
+  <endTimeStamp>20080803151802</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803151741</beginTimeStamp>
+   <endTimeStamp>20080803151802</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>6</Id>
+   <beginTimeStamp>20080803151748</beginTimeStamp>
+   <endTimeStamp>20080803151802</endTimeStamp>
+   <Description>Cuatro</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="18" >
+  <beginTimeStamp>20080803151832</beginTimeStamp>
+  <endTimeStamp>20080803151847</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803151835</beginTimeStamp>
+   <endTimeStamp>20080803151847</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="19" >
+  <beginTimeStamp>20080803151916</beginTimeStamp>
+  <endTimeStamp>20080803151944</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803151919</beginTimeStamp>
+   <endTimeStamp>20080803151944</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>7</Id>
+   <beginTimeStamp>20080803151940</beginTimeStamp>
+   <endTimeStamp>20080803151944</endTimeStamp>
+   <Description>UNO</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="20" >
+  <beginTimeStamp>20080803152357</beginTimeStamp>
+  <endTimeStamp>20080803152652</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803152406</beginTimeStamp>
+   <endTimeStamp>20080803152652</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803152512</beginTimeStamp>
+   <endTimeStamp>20080803152652</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>8</Id>
+   <beginTimeStamp>20080803152512</beginTimeStamp>
+   <endTimeStamp>20080803152652</endTimeStamp>
+   <Description>Universidad</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="21" >
+  <beginTimeStamp>20080803152701</beginTimeStamp>
+  <endTimeStamp>20080803152744</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803152704</beginTimeStamp>
+   <endTimeStamp>20080803152744</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="22" >
+  <beginTimeStamp>20080803152920</beginTimeStamp>
+  <endTimeStamp>20080803152945</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803152924</beginTimeStamp>
+   <endTimeStamp>20080803152945</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="23" >
+  <beginTimeStamp>20080803153048</beginTimeStamp>
+  <endTimeStamp>20080803153118</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803153052</beginTimeStamp>
+   <endTimeStamp>20080803153118</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803153052</beginTimeStamp>
+   <endTimeStamp>20080803153118</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="24" >
+  <beginTimeStamp>20080803153414</beginTimeStamp>
+  <endTimeStamp>20080803153452</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803153417</beginTimeStamp>
+   <endTimeStamp>20080803153452</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="25" >
+  <beginTimeStamp>20080803153749</beginTimeStamp>
+  <endTimeStamp>20080803153844</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803153756</beginTimeStamp>
+   <endTimeStamp>20080803153844</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803153756</beginTimeStamp>
+   <endTimeStamp>20080803153844</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="26" >
+  <beginTimeStamp>20080803154323</beginTimeStamp>
+  <endTimeStamp>20080803154356</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803154330</beginTimeStamp>
+   <endTimeStamp>20080803154356</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="1" >
+  <beginTimeStamp>20080803154734</beginTimeStamp>
+  <endTimeStamp>20080803154804</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803154737</beginTimeStamp>
+   <endTimeStamp>20080803154804</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803154740</beginTimeStamp>
+   <endTimeStamp>20080803154801</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="2" >
+  <beginTimeStamp>20080803155006</beginTimeStamp>
+  <endTimeStamp>20080803155021</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803155009</beginTimeStamp>
+   <endTimeStamp>20080803155019</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803155011</beginTimeStamp>
+   <endTimeStamp>20080803155021</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="3" >
+  <beginTimeStamp>20080803155610</beginTimeStamp>
+  <endTimeStamp>20080803155745</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803155612</beginTimeStamp>
+   <endTimeStamp>20080803155620</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803155614</beginTimeStamp>
+   <endTimeStamp>20080803155745</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803155620</beginTimeStamp>
+   <endTimeStamp>20080803155642</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803155624</beginTimeStamp>
+   <endTimeStamp>20080803155745</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803155642</beginTimeStamp>
+   <endTimeStamp>20080803155745</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="4" >
+  <beginTimeStamp>20080803155803</beginTimeStamp>
+  <endTimeStamp>20080803155816</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803155804</beginTimeStamp>
+   <endTimeStamp>20080803155815</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803155807</beginTimeStamp>
+   <endTimeStamp>20080803155816</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803155815</beginTimeStamp>
+   <endTimeStamp>20080803155816</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="5" >
+  <beginTimeStamp>20080803155930</beginTimeStamp>
+  <endTimeStamp>20080803160034</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803155934</beginTimeStamp>
+   <endTimeStamp>20080803160034</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>7</Id>
+   <beginTimeStamp>20080803155934</beginTimeStamp>
+   <endTimeStamp>20080803160034</endTimeStamp>
+   <Description>UNO</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803155937</beginTimeStamp>
+   <endTimeStamp>20080803160034</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>6</Id>
+   <beginTimeStamp>20080803155937</beginTimeStamp>
+   <endTimeStamp>20080803160034</endTimeStamp>
+   <Description>Cuatro</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="6" >
+  <beginTimeStamp>20080803160126</beginTimeStamp>
+  <endTimeStamp>20080803160355</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803160128</beginTimeStamp>
+   <endTimeStamp>20080803160355</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803160131</beginTimeStamp>
+   <endTimeStamp>20080803160355</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803160133</beginTimeStamp>
+   <endTimeStamp>20080803160355</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="7" >
+  <beginTimeStamp>20080803160627</beginTimeStamp>
+  <endTimeStamp>20080803160629</endTimeStamp>
+ </Entry>
+ <Entry Id="8" >
+  <beginTimeStamp>20080803161017</beginTimeStamp>
+  <endTimeStamp>20080803161136</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803161019</beginTimeStamp>
+   <endTimeStamp>20080803161055</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803161022</beginTimeStamp>
+   <endTimeStamp>20080803161129</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>6</Id>
+   <beginTimeStamp>20080803161025</beginTimeStamp>
+   <endTimeStamp>20080803161129</endTimeStamp>
+   <Description>Cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>12</Id>
+   <beginTimeStamp>20080803161055</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>mil</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>11</Id>
+   <beginTimeStamp>20080803161055</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>siete</Description>
+   <Notes/>
+  </Task>
+  <Task Id="6" >
+   <Id>10</Id>
+   <beginTimeStamp>20080803161055</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>seis</Description>
+   <Notes/>
+  </Task>
+  <Task Id="7" >
+   <Id>8</Id>
+   <beginTimeStamp>20080803161055</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>Universidad</Description>
+   <Notes/>
+  </Task>
+  <Task Id="8" >
+   <Id>9</Id>
+   <beginTimeStamp>20080803161055</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>cinco</Description>
+   <Notes/>
+  </Task>
+  <Task Id="9" >
+   <Id>15</Id>
+   <beginTimeStamp>20080803161129</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>cuatro mil</Description>
+   <Notes/>
+  </Task>
+  <Task Id="10" >
+   <Id>14</Id>
+   <beginTimeStamp>20080803161129</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>tres mil</Description>
+   <Notes/>
+  </Task>
+  <Task Id="11" >
+   <Id>13</Id>
+   <beginTimeStamp>20080803161129</beginTimeStamp>
+   <endTimeStamp>20080803161136</endTimeStamp>
+   <Description>dos mil</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="9" >
+  <beginTimeStamp>20080803161238</beginTimeStamp>
+  <endTimeStamp>20080803161310</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803161243</beginTimeStamp>
+   <endTimeStamp>20080803161310</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803161243</beginTimeStamp>
+   <endTimeStamp>20080803161310</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803161243</beginTimeStamp>
+   <endTimeStamp>20080803161310</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803161243</beginTimeStamp>
+   <endTimeStamp>20080803161310</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="10" >
+  <beginTimeStamp>20080803161440</beginTimeStamp>
+  <endTimeStamp>20080803161547</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803161443</beginTimeStamp>
+   <endTimeStamp>20080803161449</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803161443</beginTimeStamp>
+   <endTimeStamp>20080803161449</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803161443</beginTimeStamp>
+   <endTimeStamp>20080803161547</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803161443</beginTimeStamp>
+   <endTimeStamp>20080803161547</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>12</Id>
+   <beginTimeStamp>20080803161449</beginTimeStamp>
+   <endTimeStamp>20080803161547</endTimeStamp>
+   <Description>mil</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="11" >
+  <beginTimeStamp>20080803161857</beginTimeStamp>
+  <endTimeStamp>20080803162038</endTimeStamp>
+  <Task Id="1" >
+   <Id>9</Id>
+   <beginTimeStamp>20080803161946</beginTimeStamp>
+   <endTimeStamp>20080803162038</endTimeStamp>
+   <Description>cinco</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803161946</beginTimeStamp>
+   <endTimeStamp>20080803162038</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>10</Id>
+   <beginTimeStamp>20080803161946</beginTimeStamp>
+   <endTimeStamp>20080803162038</endTimeStamp>
+   <Description>seis</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>12</Id>
+   <beginTimeStamp>20080803161946</beginTimeStamp>
+   <endTimeStamp>20080803162038</endTimeStamp>
+   <Description>mil</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="12" >
+  <beginTimeStamp>20080803162224</beginTimeStamp>
+  <endTimeStamp>20080803162333</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803162227</beginTimeStamp>
+   <endTimeStamp>20080803162234</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803162227</beginTimeStamp>
+   <endTimeStamp>20080803162333</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803162227</beginTimeStamp>
+   <endTimeStamp>20080803162333</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803162227</beginTimeStamp>
+   <endTimeStamp>20080803162333</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>10</Id>
+   <beginTimeStamp>20080803162234</beginTimeStamp>
+   <endTimeStamp>20080803162333</endTimeStamp>
+   <Description>seis</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="13" >
+  <beginTimeStamp>20080803162642</beginTimeStamp>
+  <endTimeStamp>20080803162759</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803162646</beginTimeStamp>
+   <endTimeStamp>20080803162759</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803162646</beginTimeStamp>
+   <endTimeStamp>20080803162759</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803162646</beginTimeStamp>
+   <endTimeStamp>20080803162759</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803162646</beginTimeStamp>
+   <endTimeStamp>20080803162759</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="14" >
+  <beginTimeStamp>20080803163342</beginTimeStamp>
+  <endTimeStamp>20080803163502</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803163345</beginTimeStamp>
+   <endTimeStamp>20080803163459</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803163345</beginTimeStamp>
+   <endTimeStamp>20080803163459</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803163345</beginTimeStamp>
+   <endTimeStamp>20080803163459</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803163345</beginTimeStamp>
+   <endTimeStamp>20080803163459</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>8</Id>
+   <beginTimeStamp>20080803163459</beginTimeStamp>
+   <endTimeStamp>20080803163502</endTimeStamp>
+   <Description>Universidad</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="15" >
+  <beginTimeStamp>20080803163525</beginTimeStamp>
+  <endTimeStamp>20080803163618</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803163535</beginTimeStamp>
+   <endTimeStamp>20080803163618</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>3</Id>
+   <beginTimeStamp>20080803163535</beginTimeStamp>
+   <endTimeStamp>20080803163618</endTimeStamp>
+   <Description>dos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803163535</beginTimeStamp>
+   <endTimeStamp>20080803163618</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803163535</beginTimeStamp>
+   <endTimeStamp>20080803163618</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>9</Id>
+   <beginTimeStamp>20080803163535</beginTimeStamp>
+   <endTimeStamp>20080803163618</endTimeStamp>
+   <Description>cinco</Description>
+   <Notes/>
+  </Task>
+  <Task Id="6" >
+   <Id>16</Id>
+   <beginTimeStamp>20080803163554</beginTimeStamp>
+   <endTimeStamp>20080803163600</endTimeStamp>
+   <Description>ochosientos</Description>
+   <Notes/>
+  </Task>
+  <Task Id="7" >
+   <Id>8</Id>
+   <beginTimeStamp>20080803163616</beginTimeStamp>
+   <endTimeStamp>20080803163618</endTimeStamp>
+   <Description>Universidad</Description>
+   <Notes/>
+  </Task>
+  <Task Id="8" >
+   <Id>14</Id>
+   <beginTimeStamp>20080803163616</beginTimeStamp>
+   <endTimeStamp>20080803163618</endTimeStamp>
+   <Description>tres mil</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="16" >
+  <beginTimeStamp>20080803163635</beginTimeStamp>
+  <endTimeStamp>20080803163704</endTimeStamp>
+ </Entry>
+ <Entry Id="17" >
+  <beginTimeStamp>20080803170249</beginTimeStamp>
+  <endTimeStamp>20080803170253</endTimeStamp>
+ </Entry>
+ <Entry Id="18" >
+  <beginTimeStamp>20080803171011</beginTimeStamp>
+  <endTimeStamp>20080803171022</endTimeStamp>
+ </Entry>
+ <Entry Id="19" >
+  <beginTimeStamp>20080803172705</beginTimeStamp>
+  <endTimeStamp>20080803172729</endTimeStamp>
+ </Entry>
+ <Entry Id="20" >
+  <beginTimeStamp>20080803172756</beginTimeStamp>
+  <endTimeStamp>20080803172806</endTimeStamp>
+ </Entry>
+ <Entry Id="21" >
+  <beginTimeStamp>20080803172944</beginTimeStamp>
+  <endTimeStamp>20080803173020</endTimeStamp>
+ </Entry>
+ <Entry Id="22" >
+  <beginTimeStamp>20080803173136</beginTimeStamp>
+  <endTimeStamp>20080803173202</endTimeStamp>
+ </Entry>
+ <Entry Id="23" >
+  <beginTimeStamp>20080803173314</beginTimeStamp>
+  <endTimeStamp>20080803173325</endTimeStamp>
+ </Entry>
+ <Entry Id="24" >
+  <beginTimeStamp>20080803173510</beginTimeStamp>
+  <endTimeStamp>20080803173542</endTimeStamp>
+ </Entry>
+ <Entry Id="25" >
+  <beginTimeStamp>20080803173855</beginTimeStamp>
+  <endTimeStamp>20080803173950</endTimeStamp>
+ </Entry>
+ <Entry Id="26" >
+  <beginTimeStamp>20080803174059</beginTimeStamp>
+  <endTimeStamp>20080803174302</endTimeStamp>
+  <Task Id="1" >
+   <Id>13</Id>
+   <beginTimeStamp>20080803174127</beginTimeStamp>
+   <endTimeStamp>20080803174302</endTimeStamp>
+   <Description>dos mil</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803174127</beginTimeStamp>
+   <endTimeStamp>20080803174302</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>9</Id>
+   <beginTimeStamp>20080803174127</beginTimeStamp>
+   <endTimeStamp>20080803174302</endTimeStamp>
+   <Description>cinco</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>14</Id>
+   <beginTimeStamp>20080803174127</beginTimeStamp>
+   <endTimeStamp>20080803174302</endTimeStamp>
+   <Description>tres mil</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>15</Id>
+   <beginTimeStamp>20080803174127</beginTimeStamp>
+   <endTimeStamp>20080803174302</endTimeStamp>
+   <Description>cuatro mil</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="1" >
+  <beginTimeStamp>20080803174329</beginTimeStamp>
+  <endTimeStamp>20080803174335</endTimeStamp>
+ </Entry>
+ <Entry Id="2" >
+  <beginTimeStamp>20080803174358</beginTimeStamp>
+  <endTimeStamp>20080803174412</endTimeStamp>
+ </Entry>
+ <Entry Id="3" >
+  <beginTimeStamp>20080803174429</beginTimeStamp>
+  <endTimeStamp>20080803174440</endTimeStamp>
+ </Entry>
+ <Entry Id="4" >
+  <beginTimeStamp>20080803175343</beginTimeStamp>
+  <endTimeStamp>20080803175402</endTimeStamp>
+ </Entry>
+ <Entry Id="5" >
+  <beginTimeStamp>20080803175525</beginTimeStamp>
+  <endTimeStamp>20080803175531</endTimeStamp>
+ </Entry>
+ <Entry Id="6" >
+  <beginTimeStamp>20080803175621</beginTimeStamp>
+  <endTimeStamp>20080803175624</endTimeStamp>
+ </Entry>
+ <Entry Id="7" >
+  <beginTimeStamp>20080803175715</beginTimeStamp>
+  <endTimeStamp>20080803175758</endTimeStamp>
+  <Task Id="1" >
+   <Id>2</Id>
+   <beginTimeStamp>20080803175755</beginTimeStamp>
+   <endTimeStamp>20080803175758</endTimeStamp>
+   <Description>uno</Description>
+   <Notes/>
+  </Task>
+  <Task Id="2" >
+   <Id>4</Id>
+   <beginTimeStamp>20080803175755</beginTimeStamp>
+   <endTimeStamp>20080803175758</endTimeStamp>
+   <Description>tres</Description>
+   <Notes/>
+  </Task>
+  <Task Id="3" >
+   <Id>5</Id>
+   <beginTimeStamp>20080803175755</beginTimeStamp>
+   <endTimeStamp>20080803175758</endTimeStamp>
+   <Description>cuatro</Description>
+   <Notes/>
+  </Task>
+  <Task Id="4" >
+   <Id>8</Id>
+   <beginTimeStamp>20080803175755</beginTimeStamp>
+   <endTimeStamp>20080803175758</endTimeStamp>
+   <Description>Universidad</Description>
+   <Notes/>
+  </Task>
+  <Task Id="5" >
+   <Id>9</Id>
+   <beginTimeStamp>20080803175755</beginTimeStamp>
+   <endTimeStamp>20080803175758</endTimeStamp>
+   <Description>cinco</Description>
+   <Notes/>
+  </Task>
+  <Task Id="6" >
+   <Id>15</Id>
+   <beginTimeStamp>20080803175755</beginTimeStamp>
+   <endTimeStamp>20080803175758</endTimeStamp>
+   <Description>cuatro mil</Description>
+   <Notes/>
+  </Task>
+ </Entry>
+ <Entry Id="8" >
+  <beginTimeStamp>20080803180229</beginTimeStamp>
+  <endTimeStamp>20080803180240</endTimeStamp>
+ </Entry>
+</Log>
