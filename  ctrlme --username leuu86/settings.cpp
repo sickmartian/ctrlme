@@ -138,7 +138,7 @@ void Settings::setOptions() {
   }
   askInterval->setValue( itw->getAskInterval() );
   askTimeOut->setValue( itw->getAskTimeOut() );
-  itwMaxW->setValue( settings->value("itw/maximumWidth",8).toInt() );
+  itwMaxW->setValue( settings->value("itw/maximumWidth",5).toInt() );
   itwMaxH->setValue( settings->value("itw/maximumHeight",2).toInt() );
 
   setItwSort();

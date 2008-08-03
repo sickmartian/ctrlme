@@ -94,6 +94,13 @@ Task TaskList::getTaskCopy(task_id id) const {
 Task TaskList::getTaskCopy(QString description) const {
 	List::const_iterator i;
 	Task t;
+	//First we try with the exact case
+	for (i = tasks->begin(); i != tasks->end(); ++i) {
+		if ((*i).getDescription().simplified() == description.simplified()) {
+			return (*i);
+		}
+	}
+	//Then we try with any case
 	for (i = tasks->begin(); i != tasks->end(); ++i) {
 		if ((*i).getDescription().toUpper().simplified() == description.toUpper().simplified()) {
 			return (*i);
