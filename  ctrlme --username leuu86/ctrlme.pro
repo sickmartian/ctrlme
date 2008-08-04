@@ -15,7 +15,8 @@ QT += xml \
 RC_FILE = icon.rc
 
 # Input
-HEADERS += graphic_task.h \
+HEADERS += clickable_label.h \
+    graphic_task.h \
     timeline.h \
     tasklist_style.h \
     tasks_wdg.h \
@@ -30,7 +31,8 @@ HEADERS += graphic_task.h \
     ask_date_interval.h \
     reporting.h \
     settings.h
-SOURCES += graphic_task.cpp \
+SOURCES += clickable_label.cpp \
+    graphic_task.cpp \
     timeline.cpp \
     tasklist_style.cpp \
     ctrlme.cpp \
