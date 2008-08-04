@@ -9,13 +9,14 @@ TasksWdg::TasksWdg(TaskList *tasklist, Log *log, QSettings *settings, QWidget *p
   this->settings = settings;
 
   shownTasks = new List;
-  QVBoxLayout *layout = new QVBoxLayout;
+  layout = new QVBoxLayout;
+  sortLayout = new QHBoxLayout;
 
   // Line Edit
   text = new QLineEdit("");
   text->setObjectName("linea");
   layout->addWidget(text);
-  QObject::connect(text, SIGNAL(returnPressed()), this, SLOT(addTask()));  
+  QObject::connect(text, SIGNAL(returnPressed()), this, SLOT(addTask()));
   // Task's list
   list = new QListWidget;
   list->setStyle(new TaskListStyle(list));
@@ -27,20 +28,101 @@ TasksWdg::TasksWdg(TaskList *tasklist, Log *log, QSettings *settings, QWidget *p
   activateAct = new QAction("Activate",this);
   QObject::connect(deleteAct, SIGNAL(triggered()), this, SLOT(deleteItem()));
   QObject::connect(activateAct, SIGNAL(triggered()), this, SLOT(activateItem()));
-  // Layout
-  layout->addWidget(list); 
-  setLayout(layout); 
 
   // TaskList reference
   this->tasklist = tasklist;
   QObject::connect(tasklist, SIGNAL(taskAdded(task_id)), this, SLOT(taskAddedExternally(task_id)));
-  
+
   // Size & position
   readSettings();
 
+  sortMenu();
+
+  // Layout
+  layout->addWidget(list);
+  setLayout(layout);
+
   editMode = false;
   editId = 0;
-  
+
+}
+
+void TasksWdg::sortById() {
+	sort = ById;
+	fillTasks();
+	setSortMark();
+}
+
+void TasksWdg::sortByDescription() {
+	sort = ByDescription;
+	fillTasks();
+	setSortMark();
+}
+
+void TasksWdg::sortByLastUse() {
+	sort = ByLastUse;
+	fillTasks();
+	setSortMark();
+}
+
+void TasksWdg::sortByRelevance() {
+	sort = BySelectedFirstLastUse;
+	fillTasks();
+	setSortMark();
+}
+
+void TasksWdg::setSortMark() {
+	creation->setText("Creation Time");
+	description->setText("Description");
+	lastUse->setText("Last Use");
+	relevance->setText("Relevance");
+
+	switch (sort) {
+		case ById:
+			creation->setText("<font color='blue'>Creation Time</font>");
+			break;
+		case ByDescription:
+			description->setText("<font color='blue'>Description</font>");
+			break;
+		case ByLastUse:
+			lastUse->setText("<font color='blue'>Last Use</font>");
+			break;
+		case BySelectedFirstLastUse:
+			relevance->setText("<font color='blue'>Relevance</font>");
+			break;
+	}
+}
+
+void TasksWdg::sortMenu() {
+	creation = new SortLabel(this);
+	creation->setText("Creation Time");
+	sortLayout->addWidget(creation);
+	QObject::connect(creation,SIGNAL(clicked()),this,SLOT(sortById()));
+	description = new SortLabel(this);
+	description->setText("Description");
+	sortLayout->addWidget(description);
+	QObject::connect(description,SIGNAL(clicked()),this,SLOT(sortByDescription()));
+	lastUse = new SortLabel(this);
+	lastUse->setText("Last Use");
+	sortLayout->addWidget(lastUse);
+	QObject::connect(lastUse,SIGNAL(clicked()),this,SLOT(sortByLastUse()));
+	relevance = new SortLabel(this);
+	relevance->setText("Relevance");
+	sortLayout->addWidget(relevance);
+	QObject::connect(relevance,SIGNAL(clicked()),this,SLOT(sortByRelevance()));
+	layout->addLayout(sortLayout);
+	setSortMark();
+	showInactiveBtn = new QPushButton("Show Inactive",this);
+	showInactiveBtn->setFlat(true);
+	showInactiveBtn->setCheckable(true);
+	showInactiveBtn->setChecked(showInactive);
+	sortLayout->addWidget(showInactiveBtn);
+	QObject::connect(showInactiveBtn, SIGNAL( toggled(bool) ), this, SLOT( toggleInactive() ));
+}
+
+void TasksWdg::toggleInactive() {
+	showInactive = !showInactive;
+	fillTasks();
 }
 
 void TasksWdg::editTask(const QModelIndex &item) {
@@ -82,7 +164,7 @@ void TasksWdg::listAddTask(Task tarea)
 
 void TasksWdg::refreshShownTasks() {
   shownTasks->clear();
-  *shownTasks = tasklist->getTaskList(sort,false);
+  *shownTasks = tasklist->getTaskList(sort,!showInactive);
 }
 
 void TasksWdg::fillTasks() {
@@ -145,7 +227,7 @@ void TasksWdg::deleteItem() {
 
   refreshShownTasks();
   qDeleteAll(list->selectedItems());
-  
+
 }
 
 // Action to deactivate a task
@@ -170,9 +252,9 @@ void TasksWdg::activateItem() {
   }
 
   log->stopLog();
-  
+
   fillTasks();
-  
+
 }
 
 void TasksWdg::taskAddedExternally(task_id task) {
@@ -186,12 +268,14 @@ void TasksWdg::readSettings() {
   resize( settings->value("tasklist/size",QSize(320,240)).toSize() );
   int sortAux = settings->value("tasklist/sort",(int)ByDescription).toInt();
   sort = (ListSort)sortAux;
+  showInactive = settings->value("tasklist/showInactive",true).toBool();
 }
 
 void TasksWdg::writeSettings() {
   settings->setValue("tasklist/pos", pos());
   settings->setValue("tasklist/size", size());
   settings->setValue("tasklist/sort",sort);
+  settings->setValue("tasklist/showInactive",showInactive);
 }
 
 // Saves all tasks, hides the windows until

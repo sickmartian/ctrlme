@@ -1,4 +1,5 @@
 INPUT(
+./debug\clickable_label.o
 ./debug\graphic_task.o
 ./debug\timeline.o
 ./debug\tasklist_style.o
@@ -15,6 +16,7 @@ INPUT(
 ./debug\ask_date_interval.o
 ./debug\reporting.o
 ./debug\settings.o
+./debug\moc_clickable_label.o
 ./debug\moc_graphic_task.o
 ./debug\moc_timeline.o
 ./debug\moc_tasklist_style.o

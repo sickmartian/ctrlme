@@ -29,6 +29,7 @@
 #include "tasklist_style.h"
 #include "tasklist.h"
 #include "log.h"
+#include "clickable_label.h"
 
 class TasksWdg : public QWidget
 {
@@ -48,6 +49,11 @@ private slots:
   void deleteItem();
   void activateItem();
   void editTask(const QModelIndex&);
+  void sortById();
+  void sortByDescription();
+  void sortByLastUse();
+  void sortByRelevance();
+  void toggleInactive();
 
 private:
 
@@ -61,11 +67,15 @@ private:
   void fillTasks();
   void listAddTask(Task tarea);
   void showEvent( QShowEvent *event );
+  void sortMenu();
+  void setSortMark();
 
+  bool showInactive;
   bool editMode;
   task_id editId;
   ListSort sort;
-
+  QHBoxLayout *sortLayout;
+  QVBoxLayout *layout;
   QLineEdit *text;
   QListWidget *list;
   QAction *deleteAct;
@@ -73,6 +83,11 @@ private:
   TaskList *tasklist;
   List *shownTasks;
   Log *log;
+	SortLabel *creation;
+	SortLabel *description;
+	SortLabel *lastUse;
+	SortLabel *relevance;
+	QPushButton *showInactiveBtn;
 };
 
 #endif
