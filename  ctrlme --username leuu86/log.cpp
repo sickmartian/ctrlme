@@ -5,6 +5,18 @@
   return inst;
 }*/
 
+void Log::createEntry()
+{
+    currentEntry = new QDomElement();
+    *currentEntry = doc->createElement("Entry");
+    QDomElement beginTime = doc->createElement("beginTimeStamp");
+    QDomText timeText = doc->createTextNode(QDateTime::currentDateTime().toString("yyyyMMddhhmmss"));
+    beginTime.appendChild(timeText);
+    currentEntry->appendChild(beginTime);
+    currentEntry->setAttribute("Id", idMananger.getEntryId());
+    doc->firstChildElement("Log").appendChild(*currentEntry);
+}
+
 Log::Log(TaskList *taskList,QSettings *settings)
 : settings(settings),
   started(false),
@@ -18,17 +30,7 @@ Log::Log(TaskList *taskList,QSettings *settings)
 
   doc = new QDomDocument("Log");
   readLog(filename);
-  currentEntry = new QDomElement();
-  *currentEntry = doc->createElement("Entry");
-
-  QDomElement beginTime = doc->createElement("beginTimeStamp");
-  QDomText timeText = doc->createTextNode( QDateTime::currentDateTime().toString("yyyyMMddhhmmss") );
-  beginTime.appendChild(timeText);
-  currentEntry->appendChild(beginTime);
-
-  currentEntry->setAttribute("Id",idMananger.getEntryId());
-
-  doc->firstChildElement("Log").appendChild(*currentEntry);
+  createEntry();
 }
 
 void Log::readSettings() {
@@ -46,12 +48,24 @@ void Log::writeSessionEnd() {
   currentEntry->insertAfter(endTime,currentEntry->firstChildElement("beginTimeStamp"));
 }
 
+void Log::saveLog()
+{
+	QDomNode temp = currentEntry->cloneNode(true);
+	List l = taskList->getTaskList(ById,true);
+	taskList->unselectAllTasks();
+    stopLog();
+    writeSessionEnd();
+    saveFile();
+    for (List::const_iterator i=l.begin();i!=l.end();++i) {
+    	taskList->setSelected((*i).getId(),(*i).getSelected());
+    }
+    (*currentEntry) = temp.cloneNode(true).toElement();
+}
+
 Log::~Log() {
   taskList->clearSelections();
-  stopLog();
-  writeSessionEnd();
-  saveSettings();
   saveLog();
+  saveSettings();
   delete currentEntry;
   delete doc;
 }
@@ -162,17 +176,15 @@ void Log::readLog(QString filename) {
   }
 }
 
-void Log::saveLog() {
-
-  readLog(filename);
+void Log::saveFile() {
 
   if (!doc->firstChild().isProcessingInstruction()) {
     QDomNode xmlNode = doc->createProcessingInstruction("xml","version=\"1.0\"");
     doc->insertBefore(xmlNode, doc->firstChild());
   }
 
+  QDomElement log = doc->firstChildElement("Log");
   if ( !(*currentEntry).isNull() ) {
-    QDomElement log = doc->firstChildElement("Log");
     log.appendChild( (*currentEntry) );
   }
 
@@ -182,6 +194,11 @@ void Log::saveLog() {
     out << doc->toString();
     outFile.close();
   }
+
+  if ( !(*currentEntry).isNull() ) {
+    log.removeChild( (*currentEntry) );
+  }
+
 }
 
 Report Log::getReport(QDate *beginDate, QDate *endDate) {

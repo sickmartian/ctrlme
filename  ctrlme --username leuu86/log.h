@@ -20,17 +20,15 @@ using namespace std;
 class Log
 {
 public:
-//  static Log& Instance();
-  Log(TaskList*,QSettings*);
-  ~Log();
-  void write(Task);
-  void startLog();
-  void stopLog();
-  void saveLog();
-  
-  void setFilename(QString);
-
-  Report getReport(QDate*,QDate*);
+    Log(TaskList*, QSettings*);
+    ~Log();
+    void write(Task);
+    void startLog();
+    void stopLog();
+    void setFilename(QString);
+    Report getReport(QDate*, QDate*);
+    void saveLog();
+    void createEntry();
 
 protected:
   Log(const Log&);
@@ -43,16 +41,17 @@ private:
   void readSettings();
   void saveSettings();
   void readLog(QString filename);
+  void saveFile();
   void writeSessionEnd();
 
   QString filename;
-  
+
   bool started;
   bool fileAlreadyRead;
   int taskCount;
 
   QDateTime *startDt;
-  
+
   QDomDocument *doc;
   QDomElement *currentEntry;
 

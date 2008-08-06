@@ -25,13 +25,20 @@ void LineEditTimer::findTask() {
 			tasks = tasklist->getTaskList(ByDescription,false);
 		}
 		int j = 0;
+		bool found = false;
 		for (List::const_iterator i=tasks.begin(); i!=tasks.end(); i++) {
 			if ( (j>lastIndex) && (*i).getDescription().startsWith(searchWord,Qt::CaseInsensitive) ) {
 				setText((*i).getDescription());
+				found = true;
 				lastIndex = j;
 				break;
 			}
 			j++;
+		}
+		//If we don't found a match, return to the search word
+		if (!found) {
+			setText(searchWord);
+			lastIndex = -1;
 		}
 	}
 }
