@@ -39,7 +39,7 @@ public:
   //SETTERS
   void setAskInterval(int);
   void setAskTimeOut(int);
-
+  void logSelectedTasks();
   void hide();
   void show();
 
@@ -63,7 +63,6 @@ private:
   void refreshGeometry();
 
   void fillTasks();
-  void logSelectedTasks();
   void closeEvent( QCloseEvent *event);
   void startTimer();
   void stopTimer();

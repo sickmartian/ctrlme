@@ -34,6 +34,7 @@ Q_OBJECT
     //utilities
     bool saveToXML() const;
     void deleteTask(task_id id);
+    void unselectAllTasks();
 
     //getters
     Task getTask(task_id id) const;

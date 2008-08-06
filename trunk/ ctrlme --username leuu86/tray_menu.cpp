@@ -9,15 +9,11 @@ TrayMenu::TrayMenu() :
 	 MENU
 	 ---------------*/
 	forceLogAct = new QAction("Log activity", this);
-	forceLogAct->setIcon(QIcon(":/icons/add.png"));
 	autoLogAct = new QAction("&Automatic log", this);
-	autoLogAct->setIcon(QIcon(":/icons/clock.png"));
 	showAct = new QAction("Show Tasklist", this);
-	showAct->setIcon(QIcon(":/icons/thunder.png"));
 	timeLineAct = new QAction("Timeline", this);
-	timeLineAct->setIcon(QIcon(":/icons/warning.png"));
 	reportAct = new QAction("Report", this);
-	reportAct->setIcon(QIcon(":/icons/archive.png"));
+	saveAct = new QAction("Save",this);
 	showSettingsAct = new QAction("Settings", this);
 	showSettingsAct->setIcon(QIcon(":/icons/puzzle.png"));
 	quitAct = new QAction("&Quit", this);
@@ -35,6 +31,7 @@ TrayMenu::TrayMenu() :
 	trayMenu->addAction(showAct);
 	trayMenu->addAction(timeLineAct);
 	trayMenu->addAction(reportAct);
+	trayMenu->addAction(saveAct);
 	trayMenu->addAction(showSettingsAct);
 	trayMenu->addSeparator();
 	trayMenu->addAction(quitAct);
@@ -63,6 +60,7 @@ TrayMenu::TrayMenu() :
 	QObject::connect(reportAct, SIGNAL(triggered()), askReportDate, SLOT(show()));
 	QObject::connect(askReportDate, SIGNAL(datesSetted(QDate,QDate,bool)), this, SLOT(writeReport(QDate,QDate)));
 	QObject::connect(quitAct, SIGNAL(triggered()), this, SIGNAL(quit()));
+	QObject::connect(saveAct, SIGNAL(triggered()), this, SLOT(saveLog()));
 	QObject::connect(showAct, SIGNAL(triggered()), taskWdg, SLOT(show()));
 	QObject::connect(showSettingsAct, SIGNAL(triggered()), settingsDialog, SLOT(show()));
 	QObject::connect(forceLogAct, SIGNAL(triggered()), this, SLOT(showItw()));
@@ -215,4 +213,8 @@ void TrayMenu::handleActivated(QSystemTrayIcon::ActivationReason reason) {
 			showItw();
 		}
 	}
+}
+
+void TrayMenu::saveLog() {
+	log->saveLog();
 }

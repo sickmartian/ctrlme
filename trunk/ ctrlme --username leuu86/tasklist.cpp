@@ -91,6 +91,15 @@ Task TaskList::getTaskCopy(task_id id) const {
 	return t;
 }
 
+void TaskList::unselectAllTasks()
+{
+	List::iterator i;
+	//First we try with the exact case
+	for (i = tasks->begin(); i != tasks->end(); ++i) {
+		(*i).setSelected(false);
+	}
+}
+
 Task TaskList::getTaskCopy(QString description) const {
 	List::const_iterator i;
 	Task t;

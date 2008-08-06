@@ -30,13 +30,14 @@ void readSettings();
 public slots:
 	void writeReport(QDate,QDate);
 
-	signals:
+signals:
 	void quit();
 
 private slots:
 	void handleActivated(QSystemTrayIcon::ActivationReason);
 	void setEnabledIcon(bool);
 	void showItw();
+	void saveLog();
 
 private:
 	void writeSettings();
@@ -46,6 +47,7 @@ private:
 	QAction *showAct;
 	QAction *forceLogAct;
 	QAction *autoLogAct;
+	QAction *saveAct;
 	QAction *quitAct;
 	QAction *timeLineAct;
 	QAction *showSettingsAct;
